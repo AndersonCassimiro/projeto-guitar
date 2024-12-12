@@ -1,0 +1,40 @@
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+h1 {
+  text-align: center;
+}
+main {
+  width: 90%;
+  margin: auto;
+  max-width: 860px;
+}
+article h1 {
+  border-bottom: 2px solid black;
+  background-color: #d1cdcd;
+  padding: 10px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 30px;
+}
+article {
+  background-color: white;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+.voltar{
+  color: rgb(45, 4, 196);
+  background-color: rgb(202, 202, 202);
+  padding: 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
+.voltar:hover{
+  color: red;
+}
